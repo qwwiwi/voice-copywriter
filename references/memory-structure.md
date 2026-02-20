@@ -63,6 +63,12 @@ _Format: date | channel | original → revised | lesson_
 
 - 2024-03-01 | main | "This is not magic" → "The mechanism is simple" | avoid metaphors, prefer direct statements
 
+## TOV Counter
+- **Posts since TOV review:** 0
+- **TOV last updated:** —
+
+_(increment when author adds text to library; at 5 → trigger Tone of Voice Review)_
+
 ## Session Archive
 - 2024-03-01: Wrote 3 posts for main channel. Author revised tone in post 2 (too casual).
 ```

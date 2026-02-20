@@ -43,6 +43,33 @@ Channels and their style files are listed in `memory/warm/channels.md`.
    - Move idea to "Published" section in the ideas file
    - If accepted **without edits** → offer: "Add to library?"
    - If author **made edits** → log in `MEMORY.md` (COLD): date | channel | what changed → what it became | lesson
+7. When author adds text to library (`memory/prince/library/`):
+   - This is the publication signal — text is final and approved
+   - Increment counter in `MEMORY.md` (COLD): `Posts since TOV review: N → N+1`
+   - If counter reaches 5 → trigger **Tone of Voice Review**
+
+## Tone of Voice Review
+
+Triggered automatically after every 5th text added to the library.
+
+1. Read `MEMORY.md` (COLD) — all edit logs since last TOV update
+2. Read `memory/prince/library/` — recently added originals
+3. Find patterns: what does the author consistently fix? What never gets touched?
+4. Draft 2–5 concrete rules not yet in `TONE_OF_VOICE.md`
+5. Propose to the author:
+   ```
+   5 texts added to library. Based on edits and new originals, I suggest adding to TONE_OF_VOICE:
+
+   1. [rule] — seen in edits: [example]
+   2. [rule] — from library: [example]
+
+   Add these?
+   ```
+6. After explicit "yes" → update `memory/prince/tone/TONE_OF_VOICE.md`
+7. Reset counter in `MEMORY.md`: `Posts since TOV review: 0`
+8. Log: `TOV last updated: YYYY-MM-DD`
+
+**Rule:** only propose patterns seen at least twice. No guesses.
 
 ## Handling Incoming Material
 
