@@ -46,7 +46,7 @@ The agent's memory is split into three layers. Read them in order each session.
 
 | Incoming content | Route to |
 |---|---|
-| Author's original published text | `memory/prince/library/` (on command) |
+| Author's original published text | `memory/author/library/` (on command) |
 | Style feedback ("I never write X") | `memory/warm/channel-{name}.md` (append) |
 | External post / article / screenshot | `memory/warm/REFERENCES.md` |
 | Author's opinion on a topic | `memory/warm/MY_STANCE.md` |

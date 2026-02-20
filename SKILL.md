@@ -36,14 +36,14 @@ Channels and their style files are listed in `memory/warm/channels.md`.
 
 1. Identify channel (routing above)
 2. Read `memory/warm/channel-{name}.md` — tone, structure, phrases, what's never written
-3. Read `memory/prince/tone/TONE_OF_VOICE.md` — global style rules across all channels
+3. Read `memory/author/tone/TONE_OF_VOICE.md` — global style rules across all channels
 4. Check `memory/ideas-{channel}.md` — existing ideas to draw from
 5. Write **1–2 variants** — never publish autonomously, always offer for approval
 6. After author approves:
    - Move idea to "Published" section in the ideas file
    - If accepted **without edits** → offer: "Add to library?"
    - If author **made edits** → log in `MEMORY.md` (COLD): date | channel | what changed → what it became | lesson
-7. When author adds text to library (`memory/prince/library/`):
+7. When author adds text to library (`memory/author/library/`):
    - This is the publication signal — text is final and approved
    - Increment counter in `MEMORY.md` (COLD): `Posts since TOV review: N → N+1`
    - If counter reaches 5 → trigger **Tone of Voice Review**
@@ -53,7 +53,7 @@ Channels and their style files are listed in `memory/warm/channels.md`.
 Triggered automatically after every 5th text added to the library.
 
 1. Read `MEMORY.md` (COLD) — all edit logs since last TOV update
-2. Read `memory/prince/library/` — recently added originals
+2. Read `memory/author/library/` — recently added originals
 3. Find patterns: what does the author consistently fix? What never gets touched?
 4. Draft 2–5 concrete rules not yet in `TONE_OF_VOICE.md`
 5. Propose to the author:
@@ -65,7 +65,7 @@ Triggered automatically after every 5th text added to the library.
 
    Add these?
    ```
-6. After explicit "yes" → update `memory/prince/tone/TONE_OF_VOICE.md`
+6. After explicit "yes" → update `memory/author/tone/TONE_OF_VOICE.md`
 7. Reset counter in `MEMORY.md`: `Posts since TOV review: 0`
 8. Log: `TOV last updated: YYYY-MM-DD`
 
@@ -108,12 +108,12 @@ Then route based on content type:
    memory/warm/MY_STANCE.md     add author's positions on new topics
 
 🔒 Only on explicit author command ("add to library" / "save this"):
-   memory/prince/library/*.md   original author texts
+   memory/author/library/*.md   original author texts
 
 ❌ Never touch without explicit request:
    memory/warm/WARM_MEMORY.md   core facts (change rarely, only new data)
    memory/warm/channels.md      channel list (change only when new channel added)
-   memory/prince/tone/TONE_OF_VOICE.md
+   memory/author/tone/TONE_OF_VOICE.md
    AGENTS.md, SOUL.md, and any config files
 ```
 
